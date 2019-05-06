@@ -1,0 +1,1 @@
+web: gunicorn Escola_Claudio.wsgi --log-file logs
