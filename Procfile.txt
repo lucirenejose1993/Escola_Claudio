@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn Escola_Claudio.wsgi --log-file logs
+web: gunicorn app:Escola_Claudio
